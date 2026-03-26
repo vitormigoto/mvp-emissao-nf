@@ -1,0 +1,152 @@
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe Id="NFe35260312345678000199550010000000011417504584" versao="4.00">
+        <ide>
+            <cUF>35</cUF>
+            <cNF>41750458</cNF>
+            <natOp>VENDA DE MERCADORIA</natOp>
+            <mod>55</mod>
+            <serie>1</serie>
+            <nNF>1</nNF>
+            <dhEmi>2026-03-26T17:40:27-03:00</dhEmi>
+            <tpNF>1</tpNF>
+            <idDest>1</idDest>
+            <cMunFG>3550308</cMunFG>
+            <tpImp>1</tpImp>
+            <tpEmis>1</tpEmis>
+            <cDV>4</cDV>
+            <tpAmb>2</tpAmb>
+            <finNFe>1</finNFe>
+            <indFinal>1</indFinal>
+            <indPres>1</indPres>
+            <procEmi>0</procEmi>
+            <verProc>1.0.0</verProc>
+        </ide>
+        <emit>
+            <CNPJ>12345678000199</CNPJ>
+            <xNome>EMPRESA TESTE LTDA</xNome>
+            <xFant>EMPRESA TESTE</xFant>
+            <enderEmit>
+                <xLgr>Rua Teste</xLgr>
+                <nro>100</nro>
+                <xBairro>Centro</xBairro>
+                <cMun>3550308</cMun>
+                <xMun>SAO PAULO</xMun>
+                <UF>SP</UF>
+                <CEP>01001000</CEP>
+                <cPais>1058</cPais>
+                <xPais>Brasil</xPais>
+            </enderEmit>
+            <IE>123456789</IE>
+            <CRT>1</CRT>
+        </emit>
+        <dest>
+            <CNPJ>98765432000188</CNPJ>
+            <xNome>CLIENTE TESTE LTDA</xNome>
+            <enderDest>
+                <xLgr>Av Teste</xLgr>
+                <nro>200</nro>
+                <xBairro>Centro</xBairro>
+                <cMun>3550308</cMun>
+                <xMun>SAO PAULO</xMun>
+                <UF>SP</UF>
+                <CEP>01002000</CEP>
+                <cPais>1058</cPais>
+                <xPais>Brasil</xPais>
+            </enderDest>
+            <indIEDest>9</indIEDest>
+        </dest>
+        <det nItem="1">
+            <prod>
+                <cProd>001</cProd>
+                <cEAN>SEM GTIN</cEAN>
+                <xProd>PRODUTO TESTE</xProd>
+                <NCM>94013000</NCM>
+                <CFOP>5102</CFOP>
+                <uCom>UN</uCom>
+                <qCom>2.0000</qCom>
+                <vUnCom>75.00</vUnCom>
+                <vProd>150.00</vProd>
+                <cEANTrib>SEM GTIN</cEANTrib>
+                <uTrib>UN</uTrib>
+                <qTrib>2.0000</qTrib>
+                <vUnTrib>75.00</vUnTrib>
+                <indTot>1</indTot>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMSSN102>
+                        <orig>0</orig>
+                        <CSOSN>102</CSOSN>
+                    </ICMSSN102>
+                </ICMS>
+                <PIS>
+                    <PISAliq>
+                        <CST>01</CST>
+                        <vBC>150.00</vBC>
+                        <pPIS>0.65</pPIS>
+                        <vPIS>0.98</vPIS>
+                    </PISAliq>
+                </PIS>
+                <COFINS>
+                    <COFINSAliq>
+                        <CST>01</CST>
+                        <vBC>150.00</vBC>
+                        <pCOFINS>3.00</pCOFINS>
+                        <vCOFINS>4.50</vCOFINS>
+                    </COFINSAliq>
+                </COFINS>
+            </imposto>
+        </det>
+        <total>
+            <ICMSTot>
+                <vBC>0.00</vBC>
+                <vICMS>0.00</vICMS>
+                <vICMSDeson>0.00</vICMSDeson>
+                <vFCP>0.00</vFCP>
+                <vBCST>0.00</vBCST>
+                <vST>0.00</vST>
+                <vFCPST>0.00</vFCPST>
+                <vFCPSTRet>0.00</vFCPSTRet>
+                <vProd>150.00</vProd>
+                <vFrete>0.00</vFrete>
+                <vSeg>0.00</vSeg>
+                <vDesc>0.00</vDesc>
+                <vII>0.00</vII>
+                <vIPI>0.00</vIPI>
+                <vIPIDevol>0.00</vIPIDevol>
+                <vPIS>0.98</vPIS>
+                <vCOFINS>4.50</vCOFINS>
+                <vOutro>0.00</vOutro>
+                <vNF>150.00</vNF>
+            </ICMSTot>
+        </total>
+        <transp>
+            <modFrete>9</modFrete>
+        </transp>
+        <pag>
+            <detPag>
+                <tPag>01</tPag>
+                <vPag>150.00</vPag>
+            </detPag>
+        </pag>
+    </infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe35260312345678000199550010000000011417504584"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>7YnNLPBEM+YCME5nvXy6TIy8Aj0=</DigestValue></Reference></SignedInfo><SignatureValue>enbO7PIkUzWzFl/YgVlTVIszVzeCr+leZt4ExTFt6LDD9P4QybtOy9X9SrGG1GaZkJ4/Q/uzMq02&#13;
+QOLnCqHHqooRcvgIpu8XePKQ3hIKJbBur1ZX5E/170UPhAnzxgNGwlkZQLOOTyaQ0CzM1jsNLqDJ&#13;
+qXyVPfA6EFai3ZfBU6HS+56aZEmt632+iDf1uOuPIgzrF9JxOyI8zUkxyogezxrHPhcoVKP+d0X3&#13;
+y8A0Wo/I9SS3Qx1DOdIMpfGgmFCJLw+E0GR40VeOPjMhdeoQ1uiXb6YL/R8xXDPSaD6o0c+3LmSr&#13;
+XuOR6O+M/pfreyKgkvVfdNDPPYCHPWlqGEkqGw==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIDhDCCAmygAwIBAgIJALuL9Q0EFA9YMA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAkJSMQsw&#13;
+CQYDVQQIEwJTUDESMBAGA1UEBxMJU0FPIFBBVUxPMRswGQYDVQQKExJFTVBSRVNBIFRFU1RFIExU&#13;
+REExCzAJBgNVBAsTAlRJMRYwFAYDVQQDEw1FTVBSRVNBIFRFU1RFMB4XDTI2MDMyNjIwMDQ1NloX&#13;
+DTI3MDMyNjIwMDQ1NlowcDELMAkGA1UEBhMCQlIxCzAJBgNVBAgTAlNQMRIwEAYDVQQHEwlTQU8g&#13;
+UEFVTE8xGzAZBgNVBAoTEkVNUFJFU0EgVEVTVEUgTFREQTELMAkGA1UECxMCVEkxFjAUBgNVBAMT&#13;
+DUVNUFJFU0EgVEVTVEUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDj+XJHmK0N1y9s&#13;
+uDvCnxayV+TitOVvcxRMsoYeoDBNZl5A4aGjH5s3MAeyXfanKJ+O1qJeaWczG13L0AeFocooMEZk&#13;
+XC7zP8b9gAhAbp54rl9n0llMYgQ5MCi5lHbnisUqIg5kTHXeFZWawvxVXGdMg3Mnu8C0YTXIwiZK&#13;
+wfNMxrk6MKzg0ncaqN98L9oPJsJSRmj27KOPDe+aRoi1pmyfUhpD/jzYDGPpN8Omb7HnTAXSS7Ab&#13;
+YVGLIno24YzmBUTmWXOTVSV6ld+Z/KfZyPM7ji1jIoMJwrwK506zQC8+hLVnxUkTj02PtQ1LEkv3&#13;
+evkw7qH9pAbXFLclY1wshM09AgMBAAGjITAfMB0GA1UdDgQWBBSopJVQYgDA6hp2DkcRFe1OLGfF&#13;
+GDANBgkqhkiG9w0BAQsFAAOCAQEAUhJW7SWwAZE+8BrcI0tAQHWB18K1PNHDyz3DZZXonCFXsM+k&#13;
+FC6ivfZP7XmjWhAekGJCzvA0UCZmKkU7mNuvpVxuz/SHsKWqfA9vRBx3tl2iKzFVdRSOzLS5BNuN&#13;
+C3jlV+Kdg1i//Yba6NJt6qoRadIJ6Zkhi1pKFbOqhO9vdGL4oubHZMA4CG09GvUf3r/HQHYETQJU&#13;
+Tv/GwP5cCKoTLeJfed4t0Q4LUDtWYMra75m+4kDQuyIZAJdnpKdISRj2XuG+P7/ObrXvBqh9yOF4&#13;
+C9VXepmOqyi/D+Ha7gDLmn3BBaS0R2R0sqvWQ+v1s0nV8f3s1r+qK4+RoE/ILH6ZfQ==</X509Certificate></X509Data></KeyInfo></Signature></NFe>
